@@ -1,0 +1,9 @@
+<html>
+<title>
+<body>
+<%
+session.removeAttribute("sess");
+response.sendRedirect("clg_login.jsp?status=0");
+%>
+</body>
+</html>
